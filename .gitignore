@@ -1,0 +1,7 @@
+data/raw/*.parquet
+data/raw/*.csv
+data/processed/taxi.duckdb
+data/processed/taxi.duckdb.wal
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

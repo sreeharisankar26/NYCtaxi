@@ -1,0 +1,11 @@
+rule,rows_dropped,n_rows_failing,pct_of_raw_dropped
+r1_outside_file_month,420,420,0.001
+r2_unknown_zone,146199,146201,0.355
+r3_pickup_after_dropoff,1333,1575,0.003
+r4_nonpositive_distance,754655,776305,1.833
+r5_nonpositive_fare,685269,748284,1.664
+r6_absurd_duration,143588,526919,0.349
+r7_absurd_speed,2872,13245,0.007
+TOTAL raw rows loaded,41169720,,
+TOTAL dropped,1734336,,4.213
+TOTAL rows after cleaning,39435384,,

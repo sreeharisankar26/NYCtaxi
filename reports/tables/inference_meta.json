@@ -1,0 +1,36 @@
+{
+  "logit": {
+    "n_rows": 1256112,
+    "n_zones": 143,
+    "positive_rate": 0.19493882711095825,
+    "pseudo_r2": 0.05971705529784921,
+    "boroughs": [
+      "Bronx",
+      "Brooklyn",
+      "Manhattan",
+      "Queens"
+    ],
+    "cov_type": "cluster-robust, two-way (zone, date)",
+    "calib_holdout_rows": 315744,
+    "calib_brier": 0.17170436225342522,
+    "calib_brier_constant_train_rate": 0.18311032720112452,
+    "calib_auc": 0.6683489431894472,
+    "calib_holdout_positive_rate": 0.23570044086348435,
+    "calib_mean_predicted_holdout": 0.1798988551705943,
+    "calib_n_bins": 10,
+    "calib_max_abs_bin_gap": 0.20482518869611416
+  },
+  "tests": {
+    "n_zones_tested": 143,
+    "primary_test": "Mann-Whitney U",
+    "share_zones_nonnormal_shapiro": 0.8601398601398601,
+    "median_abs_skew": 0.48829762948209365,
+    "n_sig_raw": 116,
+    "n_sig_bh": 114,
+    "n_null_bh": 29,
+    "n_sig_bh_weekend_higher": 62,
+    "n_sig_bh_weekend_lower": 52,
+    "n_sig_bh_other_test": 111,
+    "agreement_primary_vs_other": 0.951048951048951
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "sarima_order": [
+    2,
+    0,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    1,
+    24
+  ],
+  "fourier_k": 6,
+  "n_folds": 12,
+  "series_hours": 8784,
+  "calendar_sarima_resid_order": [
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      24
+    ]
+  ],
+  "example_fold": 11,
+  "sarimax_folds_converged": 12,
+  "strength_daily": 0.9817212874376854,
+  "strength_weekly": 0.9190153405829952,
+  "strength_trend": 0.5613911903193705
+}
